@@ -34,6 +34,18 @@ pip install SpeechRecognition
 Diga alguma coisa:
 (usuário): "Abra o Bloco de Notas"
 (script): "Você disse: Abra o Bloco de Notas"
+(script): "Aplicativo bloco de notas aberto."
+
+Diga alguma coisa:
+(usuário): "Fechar o Bloco de Notas"
+(script): "Você disse: Fechar o Bloco de Notas"
+(script): "ÊXITO: o processo "notepad.exe" com PID 00000 foi finalizado."
+(script): "Aplicativo bloco de notas fechado."
+
+Diga alguma coisa: 
+(usuário): "Encerrar"
+(script): "Você disse: Encerrar"
+(script): "Encerrando o programa..."
 ```
 
 ## Observações
