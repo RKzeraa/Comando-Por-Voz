@@ -35,11 +35,11 @@ def ouvir_microfone(engine):
                 # Passa o áudio para o reconhecedor de padrões do speech_recognition
                 frase = microfone.recognize_google(audio, language='pt-BR')
 
-                # Transforma a frase em minúsculas
-                frase = frase.lower()
-
                 # Após alguns segundos, retorna a frase falada
                 print("Você disse: " + frase)
+
+                # Transforma a frase em minúsculas
+                frase = frase.lower()
 
                 if "fechar" in frase:
                     # Verifica se há outros comandos na frase
